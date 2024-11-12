@@ -1,7 +1,9 @@
 # Computer Vision Group Assignment
 # README
 
-This repository contains Python scripts that utilize OpenCV for image preprocessing and Tesseract OCR for extracting text from images. The scripts handle various preprocessing techniques like grayscale conversion, noise removal, thresholding, dilation, erosion, and deskewing to enhance the OCR results. In the files, 1.jpg is the Example Image; cv1.py is the Python code file for identifying, preprocessing text and adding boxes to the text; 1.py is the Python code file for extracting text and import it into a txt file.
+The project aims to develop an efficient model that uses artificial intelligence and computer vision to distinguish crops from weeds. And establish a user-friendly interface that allows users to easily upload images and obtain recognition results, and supports direct camera input for real-time identification and localization of weeds without affecting crops. At the same time, if more advanced technology is applied, an accurate robot assisted weed control solution can be constructed, which is of great significance for the development of autonomous weed management systems and their application in real life.
+
+We captured multiple growth stages of crops and weeds using an annotated image dataset for training, evaluating, and optimizing the YOLOv3 model to achieve effective classification and detection. And based on this model, a simple and easy-to-use GUI was designed to connect the front-end and back-end, allowing users to upload images and use computer vision technology for real-time image processing, identifying weeds and crop species.
 ﻿
 ## Requirements
 
