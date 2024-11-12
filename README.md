@@ -157,7 +157,7 @@ setInterval(ClickConnect,60000)
 imShow('chart.png')
 ```
 
- 4. Testing:
+ 5. Testing:
 ```python
 # need to set our custom cfg to test mode
 %cd cfg
